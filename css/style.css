@@ -46,15 +46,23 @@ nav a {
   background-image: url("../images/02-hero-bg.jpg");
   padding: 100px;
   background-size: cover;
-  opacity: 75%;
+  filter: opacity(0.7) drop-shadow(0 0 #86a5d9); 
+  /* filter was used to put tint and opacity on banner */
 }
+/* banner subtitle */
+#cool-sub {
+  float: right;
+  margin-top: 45px;
+  background-color: var(--base-light);
 
+}
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: var(--base-light);
 }
 
 .page-wrapper {

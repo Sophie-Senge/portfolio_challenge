@@ -2,36 +2,51 @@
   box-sizing: border-box;
 }
 
+:root {
+  --base-dark: #202a25;
+  --base-light: #c4ebc8;
+  --highlight: #5e4ab5;
+}
+
+
 header{
-  background-color: #7a7676;
+  background-color: var(--base-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  height: 70px;
   
 }
 
 h1 {
-  display: inline;
-  background-color: #2bb4e2;
-  padding: 5px;
+  border-bottom: var(--highlight) solid 2px;
+  background-color: rgb(196, 235, 200, 0.7);
+  padding: 0px 5px 0px 150px;
+  text-align: left;
+  
+ 
 }
 
-nav {
+nav ul {
   display: flex;
-  justify-content: end;
-  gap: 14px;
-  margin-right: 50px;
-  padding: 10px;
-  
+  justify-content: space-around; 
+  gap: 30px;
+  margin-right: 100px;
+  list-style-type: none;
 }
+
 nav a {
-  color: #2bb4e2;
+  color: var(--base-light);
   text-decoration: none;
-  border-bottom: #53c3d7 2px solid;
+  border-bottom: var(--highlight) 2px solid;
 }
 
 .hero-banner {
   background-image: url("../images/02-hero-bg.jpg");
   padding: 100px;
   background-size: cover;
-  
+  opacity: 75%;
 }
 
 
@@ -45,7 +60,7 @@ body {
 .page-wrapper {
   display: grid;
   grid-template-columns: 20% 80%;
-  margin: 20px 50px 0px 0px;
+  margin: 20px 50px 20px 0px;
   gap: 20px;
   
 }
@@ -54,8 +69,8 @@ body {
   display: flex;
   justify-content: end;
   padding: 10px;
-  color:#2bb4e2;
-  border-right:#2bb4e2 solid 2px;
+  color: var(--base-dark);
+  border-right: var(--highlight) solid 2px;
 
 }
 
@@ -63,16 +78,16 @@ body {
   display: flex;
   justify-content: end;
   padding: 10px;
-  color:#2bb4e2;
-  border-right:#2bb4e2 solid 2px;
+  color: var(--base-dark);
+  border-right: var(--highlight) solid 2px;
 }
 
   #contact {
     display: flex;
   justify-content: end;
   padding: 10px;
-  color:#2bb4e2;
-  border-right:#2bb4e2 solid 2px;
+  color: var(--base-dark);
+  border-right: var(--highlight) solid 2px;
   }
 
 
@@ -92,28 +107,28 @@ body {
 #surf-report {
   grid-area: SR;
   background-image: url("../images/02-portfolio-4.jpg");
-  border: 1px solid #53c3d7;
+  border: 1px solid var(--highlight);
   background-size: cover;
 }
 
 #led-wall {
   grid-area: led;
   background-image: url("../images/02-portfolio-1.jpg");
-  border: 1px solid #53c3d7;
+  border: 1px solid var(--highlight);
   background-size: cover;
 }
 
 #calculator {
   grid-area: cal;
   background-image: url("../images/02-portfolio-2.jpg");
-  border: 1px solid #53c3d7;
+  border: 1px solid var(--highlight);
   background-size: cover;
 }
 
 #pastel-puzzels {
   grid-area: pp;
   background-image: url("../images/02-portfolio-3.jpg");
-  border: 1px solid #53c3d7;
+  border: 1px solid var(--highlight);
   background-size: cover;
 
 }
@@ -121,7 +136,7 @@ body {
 #run-buddy {
   grid-area: run;
   background-image: url("../images/02-run-buddy.jpg");
-  border: 1px solid #53c3d7;
+  border: 1px solid var(--highlight);
   background-size: cover;
 }
 
@@ -136,6 +151,7 @@ h6 {
 
 p {
   margin: 0;
+  color: var(--base-dark);
 }
 
 .contact-details {
@@ -145,7 +161,7 @@ p {
 }
 
 div a {
-  color: black;
+  color: var(--base-dark);
   text-decoration: none;
-  border-bottom: #53c3d7 2px solid;
+  border-bottom: var(--highlight) 2px solid;
 }

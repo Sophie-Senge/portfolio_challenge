@@ -12,6 +12,45 @@ body {
 .page-wrapper {
   display: grid;
   grid-template-columns: 25% 75%;
+  
+}
+
+.work-grid {
+  margin: 0px 5%;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-areas:
+  "SR SR"
+  "led cal"
+  "pp run"
+}
+
+#surf-report {
+  grid-area: SR;
+  background-image: url("../images/02-portfolio-4.jpg");
+}
+
+#led-wall {
+  grid-area: led;
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#calculator {
+  grid-area: cal;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#pastel-puzzles {
+  grid-area: pp;
+  background-image: url("../images/02-portfolio-3.jpg");
+
+}
+
+#run-buddy {
+  grid-area: run;
+  background-image: url("../images/02-run-buddy.jpg");
 }
 
 h1,

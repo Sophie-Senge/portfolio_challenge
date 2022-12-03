@@ -40,15 +40,43 @@ body {
 
 .page-wrapper {
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 20% 80%;
+  margin: 20px 50px 0px 0px;
+  gap: 20px;
   
 }
 
+#about {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+  color:#2bb4e2;
+  border-right:#2bb4e2 solid 2px;
+
+}
+
+#work {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+  color:#2bb4e2;
+  border-right:#2bb4e2 solid 2px;
+}
+
+  #contact {
+    display: flex;
+  justify-content: end;
+  padding: 10px;
+  color:#2bb4e2;
+  border-right:#2bb4e2 solid 2px;
+  }
+
+
 
 .work-grid {
-  margin: 0px 10%;
+  margin: 10px 0px 0px 0px;
   display: grid;
-  gap: 15px;
+  gap: 13px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 400px 100px 100px;
   grid-template-areas:

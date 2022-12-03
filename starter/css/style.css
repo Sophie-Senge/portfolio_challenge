@@ -28,6 +28,8 @@ nav a {
 .hero-banner {
   background-image: url("../images/02-hero-bg.jpg");
   padding: 100px;
+  background-size: cover;
+  
 }
 
 
@@ -89,26 +91,28 @@ body {
   grid-area: SR;
   background-image: url("../images/02-portfolio-4.jpg");
   border: 1px solid #53c3d7;
+  background-size: cover;
 }
 
 #led-wall {
   grid-area: led;
   background-image: url("../images/02-portfolio-1.jpg");
   border: 1px solid #53c3d7;
-  
-  
+  background-size: cover;
 }
 
 #calculator {
   grid-area: cal;
   background-image: url("../images/02-portfolio-2.jpg");
   border: 1px solid #53c3d7;
+  background-size: cover;
 }
 
 #pastel-puzzels {
   grid-area: pp;
   background-image: url("../images/02-portfolio-3.jpg");
   border: 1px solid #53c3d7;
+  background-size: cover;
 
 }
 
@@ -116,6 +120,7 @@ body {
   grid-area: run;
   background-image: url("../images/02-run-buddy.jpg");
   border: 1px solid #53c3d7;
+  background-size: cover;
 }
 
 h1,

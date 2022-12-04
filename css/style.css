@@ -64,7 +64,7 @@ body {
   line-height: 1.5;
   background-color: var(--base-light);
 }
-
+/* primary grid */
 .page-wrapper {
   display: grid;
   grid-template-columns: 20% 80%;
@@ -72,7 +72,7 @@ body {
   gap: 20px;
   
 }
-
+/* side bar structure */
 #about {
   display: flex;
   justify-content: end;
@@ -98,8 +98,7 @@ body {
   border-right: var(--highlight) solid 2px;
   }
 
-
-
+/* secondary grid */
 .work-grid {
   margin: 10px 0px 0px 0px;
   display: grid;
@@ -118,10 +117,10 @@ body {
   border: 1px solid var(--highlight);
   background-size: cover;
   position: relative;
-  text-align: center;
-
+  text-align: center; 
+/* had to add position relative and text-align center to move the words down */
 }
-
+ /* did this to move all the words down, potentially difficult if in future want to use H3 */
  h3{
   position: absolute;
   bottom: 8px;
@@ -175,6 +174,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  color: var(--base-dark);
 }
 
 p {
@@ -194,10 +194,11 @@ div a {
   border-bottom: var(--highlight) 2px solid;
 }
 
+/* media query below for only two sizes */
 @media only screen and (max-width: 52em) {
   nav {
     display: none;
-  }
+  } }
 
 @media only screen and (max-width: 43em) {
 
@@ -215,4 +216,4 @@ div a {
     "pp"
     "run";
     margin: 10px 0px 0px 0px;
-  }
+  } }

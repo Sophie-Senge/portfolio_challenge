@@ -117,6 +117,18 @@ body {
   background-image: url("../images/02-portfolio-4.jpg");
   border: 1px solid var(--highlight);
   background-size: cover;
+  position: relative;
+  text-align: center;
+
+}
+
+ h3{
+  position: absolute;
+  bottom: 8px;
+  left: 0px;
+  padding: 5px 8px 5px 50px;
+  background-color: var(--base-light);
+  border: var(--highlight) 1px solid;
 }
 
 #led-wall {
@@ -124,6 +136,8 @@ body {
   background-image: url("../images/02-portfolio-1.jpg");
   border: 1px solid var(--highlight);
   background-size: cover;
+  position: relative;
+  text-align: center;
 }
 
 #calculator {
@@ -131,6 +145,8 @@ body {
   background-image: url("../images/02-portfolio-2.jpg");
   border: 1px solid var(--highlight);
   background-size: cover;
+  position: relative;
+  text-align: center;
 }
 
 #pastel-puzzels {
@@ -138,6 +154,8 @@ body {
   background-image: url("../images/02-portfolio-3.jpg");
   border: 1px solid var(--highlight);
   background-size: cover;
+  position: relative;
+  text-align: center;
 
 }
 
@@ -146,6 +164,8 @@ body {
   background-image: url("../images/02-run-buddy.jpg");
   border: 1px solid var(--highlight);
   background-size: cover;
+  position: relative;
+  text-align: center;
 }
 
 h1,
@@ -173,3 +193,26 @@ div a {
   text-decoration: none;
   border-bottom: var(--highlight) 2px solid;
 }
+
+@media only screen and (max-width: 52em) {
+  nav {
+    display: none;
+  }
+
+@media only screen and (max-width: 43em) {
+
+  .page-wrapper {
+    grid-template-columns: 25% 75%;
+ 
+  }
+  .work-grid {
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 400px;
+    grid-template-areas:
+    "SR"
+    "led"
+    "cal"
+    "pp"
+    "run";
+    margin: 10px 0px 0px 0px;
+  }

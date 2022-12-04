@@ -22,12 +22,12 @@ The project was to build a portfolio design using the things I have learned in t
 The most challenging aspect of this project for me was determining the best way to lay out the project combining CSS Grid and CSS flex.
 
 ### Screenshot
-![](../portfolio_challenge/images/Screen%20Shot%202022-12-04%20at%2012.47.20%20PM.png)
+![alt text](../portfolio_challenge/images/Screen%20Shot%202022-12-04%20at%2012.47.20%20PM.png)
 
-![](../portfolio_challenge/images/Screen%20Shot%202022-12-04%20at%2012.47.31%20PM.png)
+![alt text](../portfolio_challenge/images/Screen%20Shot%202022-12-04%20at%2012.47.31%20PM.png)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://sophie-senge.github.io/portfolio_challenge/]
 
 ## My Processs
 ### Built with
